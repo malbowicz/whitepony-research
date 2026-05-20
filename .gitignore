@@ -209,6 +209,34 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# White Pony public repo safety
+.env.*
+!.env.example
+secrets/
+credentials/
+private/
+*.pem
+*.key
+*.p12
+account*.json
+broker*.json
+credential*.json
+secret*.json
+api_key*.json
+outputs/model_run/
+outputs/target_history/
+data/cache/
+data/raw/
+current_portfolio.csv
+next_week_target.csv
+delta_trades.csv
+dry_run_orders.txt
+live_order_results.json
+order_results.json
+filled_orders.csv
+broker_positions.csv
+current_positions.csv
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
